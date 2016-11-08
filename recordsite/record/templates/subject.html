@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8' />
+    <title>{{ title }}</title>
+</head>
+<body>
+    <div>{{ postcontent }}</div>
+    <form action='' method='post'> {% csrf_token %}
+        <label for=''>科目名稱</label><input type='text' name='subject'/><br />
+        <input type='submit' value='確定' />
+    </form>
+</body>
+</html>

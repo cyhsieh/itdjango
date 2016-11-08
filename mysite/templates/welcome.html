@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8' />
+    <title>Welcome</title>
+</head>
+
+<body>
+    <form action='/welcome/' method='get'>
+        <label for='user_name'>您的名字</label>
+        <input type='text' id='user_name' name='user_name' />
+        <input type='submit' value='進入網站' />
+    </form>
+    <!-- {% load crispy_forms_tags %} -->
+    <form method="POST" action="">
+        <label for='btn1'></label>
+        <!-- {% csrf_token %} {{ onlineform|crispy }} -->
+        <input id='btn1' class="btn btn-success signup_btn" type="submit" value="投稿完成" />
+        <select name='' id=''>
+            <option value=''></option>
+            <option value=''></option>
+            <option value=''></option>
+            <option value=''></option>
+        </select>
+    </form>
+</body>
+
+</html>
