@@ -38,7 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'restaurants',
-    'crispy_forms',
+    # 'crispy_forms',
     'polls',
 )
 
@@ -90,7 +90,6 @@ DATABASES = {
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
 
-LANGUAGE_CODE = 'zh-TW'
 
 FILE_CHARSET = 'utf-8'
 
